@@ -13,6 +13,10 @@
  */
 
 get_header();
+$first_video = get_field('upload_video');
+$second_video = get_field('second_video');
+$third_video = get_field('third_video');
+
 ?>
 
 <section class="page-banner">
@@ -37,7 +41,29 @@ get_header();
 </div>
 </div>
 
-
+<div class=" container-fluid my_video">
+<div  class="video_wapper">
+<h4>BREW GUIDES</h4>
+  <h2>CHECK OUT OUT MOST PUPOLAR BREW GUIDES</h2>
+</div>
+ <div class="row">
+       <div class="col-sm-3 coffee_video">
+       <?php if($first_video): ?>
+           <?php echo $first_video; ?>
+           <?php endif; ?>
+       </div>
+      <div class="col-sm-3 coffee_video">
+      <?php if($second_video): ?>
+           <?php echo $second_video; ?>
+           <?php endif; ?>
+      </div>
+           <div class="col-sm-3 coffee_video">
+           <?php if($third_video): ?>
+           <?php echo $third_video; ?>
+           <?php endif; ?>
+           </div>
+           </div>
+</div>
 <?php
 get_footer();
 ?>
