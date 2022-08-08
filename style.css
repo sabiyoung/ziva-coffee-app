@@ -1176,6 +1176,20 @@ li {
 	margin-top: 20px;
 }
 
+.video_wapper {
+	text-align: center;
+	padding: 20px;
+	color: #f8ae0f;
+}
+
+.video_wapper h2 {
+	color: #444 !important;
+}
+
+.my_video {
+	padding: 30px;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
