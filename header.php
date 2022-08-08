@@ -26,7 +26,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'ziva-coffee' ); ?></a>
 
 	<header id="masthead" class="site-header">
-	<a href="<?php echo site_url(); ?>"><strong>Ziva</strong>Coffee</a>
+	<a class="logo" href="<?php echo site_url(); ?>"><strong>Ziva</strong>Coffee</a>
          
 	<div class="site-header__menu group">
 		<nav id="site-navigation" class="main-navigation">
