@@ -26,7 +26,7 @@ get_header();
 <div  class="container-fluid">
 <div class="description"><h2>REST RELAX REVIVE</h2></div>
 <div class="row">
-<div class="col-sm-4 hero_slider" style="background-image: url(<?php echo get_theme_file_uri('/images/pexels-nikita-krasnov-10267950.jpg') ?>)">
+<div class="col-sm-4 hero_slider" style="background-image: url(<?php echo get_theme_file_uri('/images/tabitha-turner-F0Wd4djYvSA-unsplash.jpg') ?>)">
 
 </div>
 <div  class="col-sm-4 hero_slider" style="background-image: url(<?php echo get_theme_file_uri('/images/pexels-john-matthew-3784328.jpg') ?>)">
