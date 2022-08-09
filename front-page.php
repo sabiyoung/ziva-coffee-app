@@ -44,7 +44,7 @@ $third_video = get_field('third_video');
 <div class=" container-fluid my_video">
 <div  class="video_wapper">
 <h4>BREW GUIDES</h4>
-  <h2>CHECK OUT OUT MOST PUPOLAR BREW GUIDES</h2>
+  <h2>CHECK OUT OUR MOST PUPOLAR BREW GUIDES</h2>
 </div>
  <div class="row">
        <div class="col-sm-3 coffee_video">
