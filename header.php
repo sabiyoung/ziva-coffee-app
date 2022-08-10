@@ -31,8 +31,8 @@
 	<div class="site-header__menu group">
 		<nav id="site-navigation" class="main-navigation">
 		<ul>
-		       <li><a href="#">Home</a></li>
-              <li><a href="<?php echo site_url("#"); ?>">About Us</a></li>
+		       <li><a href="<?php echo site_url("/"); ?>">Home</a></li>
+              <li><a href="<?php echo site_url("/about"); ?>">About Us</a></li>
               <li><a href="#">Product</a></li>
               <li><a href="#">Subscribe</a></li>
               <li><a href="#">Contact Us</a></li>

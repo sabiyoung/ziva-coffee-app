@@ -15,24 +15,21 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
-	</main><!-- #main -->
-
+	<div class="page-banner-page">
+	<div class="page-banner__bg" style="background-image: url(<?php echo get_theme_file_uri('/images/image2.jpg') ?>)"></div>
+      <div class="banner__content-page container container--narrow">
+        <h1 class="banner__title-page"><?php the_title(); ?></h1>
+      </div>
+	</div>
+	<div class="container container--narrow page-section">
+	<div class="generic-content">
+       <?php the_content(); ?>
+	   <div class="about-image" style="background-image: url(<?php echo get_theme_file_uri('/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg') ?>)">
+    
+	   </div>
+	   
+      </div>
+	  </div>
 <?php
 get_footer();
 ?>

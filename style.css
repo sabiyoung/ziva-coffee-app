@@ -1190,6 +1190,48 @@ li {
 	padding: 30px;
 }
 
+.page-banner__bg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.banner__content-page {
+	position: relative;
+	z-index: 2;
+}
+
+.banner__title-page {
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+	font-size: 3.6rem;
+	margin-top: -9rem;
+	color: #fff;
+}
+
+@media (min-width: 530px) {
+	.banner__title-page {
+		font-size: 5rem;
+	}
+}
+
+.generic-content p {
+	font-size: 1.15rem;
+	padding-top: 20px;
+}
+
+.about-image {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin: 60px;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
