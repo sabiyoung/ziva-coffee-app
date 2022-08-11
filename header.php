@@ -35,7 +35,7 @@
               <li><a href="<?php echo site_url("/about"); ?>">About Us</a></li>
               <li><a href="#">Product</a></li>
               <li><a href="#">Subscribe</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="<?php echo site_url("/contact-us") ?>">Contact Us</a></li>
               <li><a href="#">Location</a></li>
             </ul>
 		</nav>
