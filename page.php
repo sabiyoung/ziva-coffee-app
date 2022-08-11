@@ -24,7 +24,7 @@ get_header();
 	<div class="container container--narrow page-section">
 	<div class="generic-content">
        <?php the_content(); ?>
-	   <div class="about-image" style="background-image: url(<?php echo get_theme_file_uri('/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg') ?>)">
+	
     
 	   </div>
 	   
