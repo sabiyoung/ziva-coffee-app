@@ -1,7 +1,6 @@
 <?php
-/**
- * The template for displaying all pages
- *
+/* Template Name: About Us Template */
+ /*
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site may use a
@@ -24,7 +23,7 @@ get_header();
 	<div class="container container--narrow page-section">
 	<div class="generic-content">
        <?php the_content(); ?>
-	
+	   <div class="about-image" style="background-image: url(<?php echo get_theme_file_uri('/images/tim-mossholder-YC6RVdoTtIk-unsplash.jpg') ?>)">
     
 	   </div>
 	   
