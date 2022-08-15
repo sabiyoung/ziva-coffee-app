@@ -36,9 +36,10 @@
               <li><a href="#">Product</a></li>
               <li><a href="#">Subscribe</a></li>
               <li><a href="<?php echo site_url("/contact-us") ?>">Contact Us</a></li>
-              <li><a href="#">Location</a></li>
+              <li><a href="<?php echo site_url("/location") ?>">Location</a></li>
             </ul>
 		</nav>
+	
 		</div>
 		<!-- #site-navigation -->
 	</header><!-- #masthead -->

@@ -3,13 +3,13 @@
 	width: 100%;
 
 	ul {
-		display: none;
+		// display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
 
 		ul {
-			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			box-shadow: 0 3px 3px #fff;
 			float: left;
 			position: absolute;
 			top: 100%;
