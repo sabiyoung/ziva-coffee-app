@@ -182,3 +182,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+register_nav_menus( array(
+	'primary' => __( 'Primary Menu', 'ziva-coffee-app' ),
+) );
