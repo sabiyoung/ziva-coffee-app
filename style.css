@@ -1118,7 +1118,7 @@ li {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 500px;
-	max-width: 370px;
+	max-width: 340px;
 	margin: 15px;
 }
 
@@ -1140,9 +1140,7 @@ li {
 }
 
 .footer {
-	margin-top: 2 0px;
 	height: 400px;
-	margin-top: 20px;
 	color: #fff;
 }
 
@@ -1167,8 +1165,9 @@ li {
 .privacy {
 	display: flex;
 	justify-content: space-around;
-	padding-bottom: 35px;
+	padding-top: 75px;
 	color: #fff;
+	font-size: 13px;
 }
 
 .site-header {
@@ -1233,6 +1232,23 @@ li {
 
 .page-form {
 	max-width: 450px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff !important;
+}
+
+.navbar-toggler-icon {
+	color: #fff !important;
+}
+
+.navbar-dark .navbar-toggler {
+	border: solid 1px #fff !important;
+}
+
+.navbar-toggler[aria-expanded="true"] {
+	background-color: #333 !important;
+	opacity: 0.9;
 }
 
 /*--------------------------------------------------------------
